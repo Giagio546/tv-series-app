@@ -1,0 +1,18 @@
+.series-list {
+    list-style-type: none;
+}
+
+#movieList {
+    background-color: rgba(249, 243, 231, 0.845);
+    border: 1px solid ;
+    border-radius: 10px;
+}
+#movieList > a {
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+#movieList > a:hover{
+    color: blue;
+}

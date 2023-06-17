@@ -1,0 +1,13 @@
+
+#inMovie {
+    background-color: rgba(249,243,231,255);
+    border: thick double black;
+    border-radius: 5%;
+    font-family: 'Pathway Extreme';
+    font-weight: bold;
+}
+
+#inMovie:focus {
+    box-shadow: 0 0 0 0.15rem #fab7004a !important;
+}
+

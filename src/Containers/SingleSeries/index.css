@@ -1,0 +1,13 @@
+
+
+h1, p {
+    margin: 20px; 
+}
+p {
+   font-size: large; 
+   font-weight: bold;
+}
+
+img {
+    border: 2px solid black
+}

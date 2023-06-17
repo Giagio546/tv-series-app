@@ -7,7 +7,7 @@ import { ListGroup } from "react-bootstrap";
 const SeriesListItem = ({ series }) => {
     return(
         <ListGroup.Item id="movieList" action variant="light">
-            <Link to={`series/${series.show.id}`} state={{from: series.show.id}}>
+            <Link to={`./${series.show.id}`} state={{from: series.show.id}}>
             {series.show.name}
             </Link>      
         </ListGroup.Item >    

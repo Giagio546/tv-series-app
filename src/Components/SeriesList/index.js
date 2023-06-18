@@ -5,17 +5,17 @@ import { ListGroup } from "react-bootstrap";
 
 
 const SeriesListItem = ({ series }) => {
-    return(
+    return( 
         <ListGroup.Item id="movieList" action variant="light">
             <Link to={`./${series.show.id}`} state={{from: series.show.id}}>
             {series.show.name}
             </Link>      
-        </ListGroup.Item >    
+        </ListGroup.Item >   
     )
 }
 const SeriesList = props => {
     return(
-        <div>
+        <div class="">
             <ListGroup>
                 {props.list.map(series =>(
                     <SeriesListItem series={series} key={series.show.id} />

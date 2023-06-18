@@ -15,18 +15,9 @@ import logo from "./assets/movie-png-icon-27.jpg";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Navbar class="custom-navbar" bg="light" data-bs-theme="light">
+    <Navbar bg="dark" data-bs-theme="dark">
       <Container>
       <Navbar.Brand href="/">TV Series List</Navbar.Brand>
-      <Navbar.Brand href="/">
-            <img
-              src={logo}
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/"><b>Home</b></Nav.Link>
             <Nav.Link href="/series">Search</Nav.Link>

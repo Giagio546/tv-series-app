@@ -71,7 +71,7 @@ class Series extends Component {
                     }
 
                     {
-                        !isFetching && <SeriesList list={this.state.series}/>
+                        !isFetching && <SeriesList className="movie-list-container" list={this.state.series}/>
                     }</Col>
                     <Col xs={9}></Col>
                     </Row>

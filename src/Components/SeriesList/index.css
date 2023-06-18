@@ -3,16 +3,20 @@
 }
 
 #movieList {
-    background-color: rgba(249, 243, 231, 0.845);
-    border: 1px solid ;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: 0 solid ;
+    border-radius: 1px;
 }
 #movieList > a {
-    color: black;
+    color: #FFFFFF;
     font-weight: bold;
     font-style: italic;
     text-decoration: none;
 }
 #movieList > a:hover{
-    color: blue;
+    color: #FCA311;
+}
+
+.movie-list-container {
+    border: 5px solid white;
 }

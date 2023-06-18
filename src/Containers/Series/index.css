@@ -1,8 +1,7 @@
 
 #inMovie {
     background-color: rgba(249,243,231,255);
-    border: thick double black;
-    border-radius: 5%;
+    border: 2px solid #FCA311;
     font-family: 'Pathway Extreme';
     font-weight: bold;
 }

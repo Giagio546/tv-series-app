@@ -10,10 +10,10 @@ const PopularSeries = props => {
                 <div class="container-shows"> 
                 {props.list.map( series => (
                     <div class="single-show" key={series.id}>
-                        <Link to={`series/${series.show.id}`} state={{from: series.show.id}}><h2>{series.show.name.length > 15 ? series.show.name.substring(0,21) : series.show.name }</h2></Link>
-                        <Link to={`series/${series.show.id}`} state={{from: series.show.id}}><img src={series.show?.image?.medium} alt="locandina"/></Link>
+                        <Link className="linkTitle" to={`series/${series.show.id}`} state={{from: series.show.id}}><h2>{series.show.name.length > 15 ? series.show.name.substring(0,21) : series.show.name }</h2></Link>
+                        <Link to={`series/${series.show.id}`} state={{from: series.show.id}}><img class="imgHome" src={series.show?.image?.medium} alt="locandina"/></Link>
                         <p>{series.airdate} - {series.airtime}</p>
-                        <p>Network: {series.show?.network?.name}</p>
+                        <p><span class="network">Network: </span>{series.show?.network?.name}</p>
                     </div>
                 ))}
                 </div>
